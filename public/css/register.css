@@ -1,0 +1,65 @@
+body {
+    background-color: #1E4D91;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    padding: 20px; 
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+.card > * {
+    margin-top: 5px;
+}
+
+.create_account {
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center; 
+}
+
+.sign {
+    margin-top: 20px; 
+    background-color: #1E4D91;
+    color: white;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid lightgray;
+    width: 90%;
+}
+
+.register {
+    text-align: center; 
+    margin-top: 10%;
+}
+
+.common{
+    padding: 0;
+    margin: 10px 5px;
+
+}
+
+.fields{
+    padding: 8px;
+    border-radius: 5px;
+    width: 85%;
+    border: 2px solid lightgray;
+}
+
+.rem{
+    margin-top: 5%;
+}
+
